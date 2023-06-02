@@ -1,5 +1,13 @@
 <template>
 	<view class="content">
+		<view>
+			<view class="">
+				赚几个逼子儿：{{}}
+			</view>
+			<view class="">
+				距离下班：{{}}
+			</view>
+		</view>
 		<view class="header">总次数：{{total}}</view>
 		<image class="fish" src="/static/img/yu1.png" mode="widthFix" @click="handleClick"></image>
 		<view class="tap-num" v-if="tapNum > 0">{{tapNum}}</view>
@@ -14,10 +22,15 @@ export default {
 			total: 0,
 			timer: null,
 			multiple: 1,
-			
+			fuckMoney: '**',
+			happyGame: '****'
 		};
 	},
 	onLoad() {},
+	mounted() {
+		let happeyDate = new Date('')
+		let now = new Date()
+	},
 	methods: {
 		handleClick() {
 			const r = Math.floor(Math.random()*100)

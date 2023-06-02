@@ -1,1 +1,0 @@
-<view class="content data-v-57280228"><view class="header data-v-57280228">{{"总次数："+total}}</view><image class="fish data-v-57280228" src="/static/img/yu1.png" mode="widthFix" data-event-opts="{{[['tap',[['handleClick',['$event']]]]]}}" bindtap="__e"></image><block wx:if="{{tapNum>0}}"><view class="tap-num data-v-57280228">{{tapNum}}</view></block></view>
