@@ -1,0 +1,23 @@
+{
+  "name": "jgq",
+  "version": "1.0.0",
+  "description": "卷个球",
+  "main": "main.js",
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suixuesen2877/JGQ.git"
+  },
+  "author": "suixuesen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suixuesen2877/JGQ/issues"
+  },
+  "homepage": "https://github.com/suixuesen2877/JGQ#readme"
+}
